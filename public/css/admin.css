@@ -1,0 +1,136 @@
+/* ==============================================
+ * Login page
+ * ============================================== */
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+
+/* ==============================================
+ * Common
+ * ============================================== */
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+
+/* ==============================================
+ * Dashboard page
+ * ============================================== */
+
+.admin {
+    /* padding: 15px .5rem; */
+    padding: 30px 30px 60px 30px;
+}
+
+.admin .page-title {
+    margin-bottom: 30px;
+}
+
+.admin .dashboard .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(46,47,57,.125); */
+    border-radius: .25rem;
+    border-top: solid #5969ff!important;
+}
+
+.admin .dashboard .card .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.admin .dashboard .card .card-body h5 {
+    color: #686972 !important;
+}
+
+
+/* ==============================================
+ * Contact page
+ * ============================================== */
+
+.error-message-contactsTable {
+    font-size: 12px;
+    color: red;
+}
+
+
+/* ==============================================
+ * Trial users page
+ * ============================================== */
+
+.error-message-trialUsersTable {
+    font-size: 12px;
+    color: red;
+}
+
+
+/* ==============================================
+ * DataTables
+ * ============================================== */
+
+select {
+    cursor: pointer;
+    word-wrap: break-word;
+    line-height: 1em;
+    white-space: normal;
+    outline: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    /* width: 80px; */
+    min-width: 1em;
+    min-height: 2.71428571em;
+    background: #fff;
+    display: inline-block;
+    padding: .78571429em 0em .78571429em 1em;
+    margin: 0px 5px 0px 3px;
+    color: rgba(0, 0, 0, .87);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid rgb(222, 226, 230);
+    border-radius: .28571429rem;
+    -webkit-transition: width .1s ease, -webkit-box-shadow .1s ease;
+    transition: width .1s ease, -webkit-box-shadow .1s ease;
+    transition: box-shadow .1s ease, width .1s ease;
+    transition: box-shadow .1s ease, width .1s ease, -webkit-box-shadow .1s ease;
+}
+
+input[type=search] {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    line-height: 1.21428571em;
+    padding: .67857143em 1em;
+    font-size: 1em;
+    background: #fff;
+    border: 2px solid rgb(222, 226, 230);
+    color: rgba(0, 0, 0, .87);
+    border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 0 transparent inset;
+    box-shadow: 0 0 0 0 transparent inset;
+    -webkit-transition: color .1s ease, border-color .1s ease;
+    transition: color .1s ease, border-color .1s ease;
+}
+
+table.dataTable thead th,
+table.dataTable.no-footer {
+    border-bottom: 2px solid rgb(222, 226, 230) !important;
+}
+
+.fz-20 {
+    font-size: 20px !important;
+}

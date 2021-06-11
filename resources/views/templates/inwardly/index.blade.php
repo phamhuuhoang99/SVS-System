@@ -1,0 +1,10 @@
+@extends('templates.inwardly.master')
+@section('title', 'Inwardly')
+@section('content')
+    @include('templates.inwardly.bannerbottom')
+    @include('templates.inwardly.skill')
+    @include('templates.inwardly.sectiongallery')
+    @include('templates.inwardly.stats')
+    @include('templates.inwardly.client')
+    @include('templates.inwardly.bottomlast')
+@endsection
